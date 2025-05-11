@@ -7,8 +7,10 @@ from clients.files.files_schema import (CreateFileRequestSchema,
                                         CreateFileResponseSchema,
                                         GetFileResponseSchema,
                                         FileSchema)
+from config import settings
 from tools.assertions.base import assert_equal
-from tools.assertions.errors import assert_validation_error_response, assert_internal_error_response
+from tools.assertions.errors import (assert_validation_error_response,
+                                     assert_internal_error_response)
 
 
 @allure.step("Check create file response")
@@ -23,7 +25,8 @@ def assert_create_file_response(
     :param response: Ответ API с данными файла.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
-    expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
+    expected_url = (f"{settings.http_client.client_url}static/"
+                    f"{request.directory}/{request.filename}")
 
     assert_equal(str(response.file.url), expected_url, "url")
     assert_equal(response.file.filename, request.filename, "filename")
@@ -65,7 +68,7 @@ def assert_create_file_with_empty_filename_response(
         actual: ValidationErrorResponseSchema
 ):
     """
-    Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
+        Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
 
     :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
     :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
