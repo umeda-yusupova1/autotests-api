@@ -2,6 +2,10 @@ from typing import Any, Sized
 
 import allure
 
+from tools.logger import get_logger
+
+logger = get_logger("BASE_ASSERTIONS")
+
 
 @allure.step("Check that response status code equals to {expected}")
 def assert_status_code(actual: int, expected: int):
@@ -12,6 +16,7 @@ def assert_status_code(actual: int, expected: int):
     :param expected: Ожидаемый статус-код.
     :raises AssertionError: Если статус-коды не совпадают.
     """
+    logger.info(f"Check that response status code equals to {expected}")
     assert actual == expected, (
         f'Incorrect response status code. '
         f'Expected status code: {expected}. '
@@ -29,8 +34,9 @@ def assert_equal(actual: Any, expected: Any, name: str):
     :param expected: Ожидаемое значение.
     :raises AssertionError: Если фактическое значение не равно ожидаемому.
     """
+    logger.info(f'Check that {name!r} equals to {expected}')
     assert actual == expected, (
-        f'Incorrect value: "{name}". '
+        f'Incorrect value: {name!r}. '
         f'Expected value: {expected}. '
         f'Actual value: {actual}'
     )
@@ -45,8 +51,9 @@ def assert_is_true(actual: Any, name: str):
     :param actual: Фактическое значение.
     :raises AssertionError: Если фактическое значение ложно.
     """
+    logger.info(f'Check that {name!r} is true')
     assert actual, (
-        f'Incorrect value: "{name}". '
+        f'Incorrect value: {name!r}. '
         f'Expected true value but got: {actual}'
     )
 
@@ -61,8 +68,9 @@ def assert_length(actual: Sized, expected: Sized, name: str):
     :raises AssertionError: Если длины не совпадают.
     """
     with allure.step(f"Check that length of {name} equals to {len(expected)}"):
+        logger.info(f"Check that length of {name!r} equals to {len(expected)}")
         assert len(actual) == len(expected), (
-            f'Incorrect object length: "{name}". '
+            f'Incorrect object length: {name!r}. '
             f'Expected length: {len(expected)}. '
             f'Actual length: {len(actual)}'
         )

@@ -4,10 +4,16 @@ from clients.errors_schema import (ValidationErrorSchema,
                                    ValidationErrorResponseSchema,
                                    InternalErrorResponseSchema)
 from tools.assertions.base import assert_length, assert_equal
+from tools.logger import get_logger
+
+logger = get_logger("ERRORS_ASSERTIONS")
 
 
 @allure.step("Check validation error")
-def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema):
+def assert_validation_error(
+        actual: ValidationErrorSchema,
+        expected: ValidationErrorSchema
+):
     """
     Проверяет, что объект ошибки валидации соответствует ожидаемому значению.
 
@@ -15,6 +21,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     :param expected: Ожидаемая ошибка.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check validation error")
     assert_equal(actual.type, expected.type, "type")
     assert_equal(actual.input, expected.input, "input")
     assert_equal(actual.context, expected.context, "context")
@@ -35,6 +42,7 @@ def assert_validation_error_response(
     :param expected: Ожидаемый ответ API.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check validation error response")
     assert_length(actual.details, expected.details, "details")
 
     for index, detail in enumerate(expected.details):
@@ -53,4 +61,5 @@ def assert_internal_error_response(
     :param expected: Ожидаемый ответ API.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check internal error response")
     assert_equal(actual.details, expected.details, "details")
