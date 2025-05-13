@@ -1,0 +1,10 @@
+curl -X PATCH http://localhost:8000/api/v1/courses/41e1d6a7-c580-4891-83ee-0b11cf684040 \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI2LjM4OTYxNCIsInVzZXJfaWQiOiJmYzQxMjYzMC05NjlhLTQyODctOTcyMS0zNDBiOTIzNzliMjMifQ.RDAIxz97ffkHVJaApQPvW77ltIUpfMdn9p4KCWBbUQg' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power behind natural bit memory else occur.","maxScore":83,"minScore":30,"description":"President current game local suffer sometimes. Pay campaign now leave expect summer old.\\nAt miss sometimes low. Truth term nor let month together place.","estimatedTime":"8 weeks"}'

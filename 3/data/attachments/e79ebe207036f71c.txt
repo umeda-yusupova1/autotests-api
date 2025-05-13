@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI4Ljc1NTgzNCIsInVzZXJfaWQiOiI1MWQ5OWM4MS1mMmI1LTQ5MGUtYThhNy02YzhiZjY3ZjU4ZTAifQ.-dpCzucZyAAiV7yh6grjnOjA77P73l6U7GCWetr0sjw' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One teacher author enter.","maxScore":74,"minScore":21,"description":"Too matter week help close remain. Bill other before significant. Join defense organization message that carry. Candidate suffer late according only help management.","estimatedTime":"1 weeks","previewFileId":"e006c93e-931c-4dc7-b790-fac4c4de46e6","createdByUserId":"51d99c81-f2b5-490e-a8a7-6c8bf67f58e0"}'

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI2LjExNjQ3MCIsInVzZXJfaWQiOiJjNGVkMjVmOS0xYjI0LTQ2NGUtODliYi1mNWZlYzQ2NWM4YWIifQ.UzFioYSzpXyjffAMB7ACmjYCapmw9filSm2PgpQvYRM' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interview apply performance down deep head mention.","maxScore":91,"minScore":24,"description":"Candidate make kind quality blood. Sometimes sort possible. Every past director anyone market with.\\nShould boy imagine small medical letter data. Process modern give customer before study with.","estimatedTime":"1 weeks","previewFileId":"b819bab1-dca1-4dc5-8c77-3b8e8aa8cdf7","createdByUserId":"c4ed25f9-1b24-464e-89bb-f5fec465c8ab"}'

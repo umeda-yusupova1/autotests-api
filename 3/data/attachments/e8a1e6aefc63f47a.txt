@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI2LjM4OTYxNCIsInVzZXJfaWQiOiJmYzQxMjYzMC05NjlhLTQyODctOTcyMS0zNDBiOTIzNzliMjMifQ.RDAIxz97ffkHVJaApQPvW77ltIUpfMdn9p4KCWBbUQg' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cut reduce somebody treat man very your citizen.","maxScore":78,"minScore":20,"description":"Head fish leader growth stage open collection. Piece choose ability gas expect.","estimatedTime":"9 weeks","previewFileId":"ffbd5740-6b3a-4158-814e-39881cc3dce7","createdByUserId":"fc412630-969a-4287-9721-340b92379b23"}'

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI4LjQ4MTk0NSIsInVzZXJfaWQiOiI4N2E0MzYyZC1hY2E2LTQyOTQtYjQ4Yy0yODY4NTQxOGYzOGIifQ.M-zT5vfcgW1JeZYGtkcMiKwuOEK1p9zjxcYCW5jDlIA' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant Mrs party early.","maxScore":56,"minScore":29,"description":"Brother on million reveal. Walk nearly lawyer wish.\\nTop finish general join picture. Health soon pull.","estimatedTime":"3 weeks","previewFileId":"ac263334-8640-4308-ba5c-8a092aef15a8","createdByUserId":"87a4362d-aca6-4294-b48c-28685418f38b"}'

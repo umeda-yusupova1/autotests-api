@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/0e1d5679-111d-4918-ae0e-afa65d8542c6
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/0e1d5679-111d-4918-ae0e-afa65d8542c6
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:47 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 0e1d5679-111d-4918-ae0e-afa65d8542c6
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Newspaper conference test soldier.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to 5c564fb1-bfe6-4c19-8954-04e8095ab2a6
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 71
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 18
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 96
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Knowledge morning fish behavior. Determine message exactly pay interview wide order. Human service support work car eye evening drug.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI3LjI5MzQwNiIsInVzZXJfaWQiOiJjNWUxMDZiZS1jOWRmLTQ2YTEtOTA0Ny0yOGUxYjRkZGI4ODcifQ.VwKwg05tppmFjBk12PIruqsEctU8EE5iKwkun_4HIGA' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long build could kitchen blood apply.","maxScore":79,"minScore":22,"description":"Guy wish draw leader tend former. Join over focus political able industry. Suddenly someone federal save threat apply serious.","estimatedTime":"5 weeks","previewFileId":"9e7dc444-8e3d-4486-a82e-7b6d815d144d","createdByUserId":"c5e106be-c9df-46a1-9047-28e1b4ddb887"}'

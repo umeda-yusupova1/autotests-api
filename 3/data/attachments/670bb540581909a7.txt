@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI5LjQ0MjIyNiIsInVzZXJfaWQiOiJkMGZkYzlhNi04NmFhLTQwYmMtYjU5OC1kNTkzMDEwYWZkMjYifQ.pcpcQS3pjEWpLdWlvBM5Jb8jbOmuFc3FPvQ1rLe1Ihs' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International yard seem road place feeling.","maxScore":89,"minScore":24,"description":"Boy life exactly chance person building plant. Government gun fine true able. Represent reveal debate cost since subject.","estimatedTime":"2 weeks","previewFileId":"b67401b2-5ff3-4357-a27f-54a563b38e4e","createdByUserId":"d0fdc9a6-86aa-40bc-b598-d593010afd26"}'

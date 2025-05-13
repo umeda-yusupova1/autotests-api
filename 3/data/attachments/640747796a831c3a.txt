@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTEzVDE1OjMzOjI3LjU2NjI4MCIsInVzZXJfaWQiOiJiYzYxYWQxNy03ZjcxLTRiOGMtODBkYi1lNTg2ZjhhZTA4NTEifQ.E7k6ozIqPJ1xIUogqk65fRU-GT-W5F00OF9FBbT61R0' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Summer color less sit Democrat any democratic.","maxScore":86,"minScore":11,"description":"Example north sure his win agency interesting. Especially these kid produce employee. Ground authority list offer.\\nUsually method outside Mr various for. Within boy case wait.","estimatedTime":"7 weeks","previewFileId":"0c22f430-d9cd-4aae-a662-a4cb021625fc","createdByUserId":"bc61ad17-7f71-4b8c-80db-e586f8ae0851"}'

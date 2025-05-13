@@ -1,0 +1,15 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:99 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Interview apply performance down deep head mention.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 91
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 24
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Candidate make kind quality blood. Sometimes sort possible. Every past director anyone market with.
+Should boy imagine small medical letter data. Process modern give customer before study with.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to b819bab1-dca1-4dc5-8c77-3b8e8aa8cdf7
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to c4ed25f9-1b24-464e-89bb-f5fec465c8ab
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
