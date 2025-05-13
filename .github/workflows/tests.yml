@@ -54,12 +54,15 @@ jobs:
           path: allure-results
 
   publish-report:
+    needs: [ run-tests ]
     runs-on: ubuntu-latest
-    needs: run-tests
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
 
       - name: Download Allure results
         uses: actions/download-artifact@v4
@@ -67,15 +70,7 @@ jobs:
           name: allure-results
           path: allure-results
 
-      - name: Get Allure history
-        uses: actions/checkout@v4
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Generates Allure Report with history
+      - name: Generate Allure Report with history
         uses: simple-elf/allure-report-action@v1.12
         if: always()
         with:
