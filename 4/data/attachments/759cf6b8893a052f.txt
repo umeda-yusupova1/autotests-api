@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM4Ljk3MjY4MSIsInVzZXJfaWQiOiJkMGVhYjEzOS1iMDQ1LTRhNWQtYTY1Yy1hZmMxMjY1MzhhMTQifQ.wOav3SG41YHTrWqMngbAYrUf96J-k3G6zha8exK_usY' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive budget room question cost source nothing.","maxScore":59,"minScore":2,"description":"Lot image beautiful nothing set without still. Key government special huge page move.\\nGuess direction represent although manager. House test method nation.","estimatedTime":"3 weeks","previewFileId":"d5784541-dd47-4c67-9c55-a9ec346defc3","createdByUserId":"d0eab139-b045-4a5d-a65c-afc126538a14"}'

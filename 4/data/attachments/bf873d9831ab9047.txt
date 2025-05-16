@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM4LjI5NjUxMiIsInVzZXJfaWQiOiI2MzNiMWZiMi00NTdlLTQ4NDUtOGNiMS0yODZiZWU4MWY5MGMifQ.z91v0C5XCfi-SEVX6vN3FVlOF7e2WdPrsuSvjEfJ2Y8' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material manage section real fire population oil.","courseId":"aa39b5a4-252c-4e76-acf9-ee370c2045d4","maxScore":53,"minScore":14,"orderIndex":28,"description":"Low remain entire market family. Night view later employee make but. During hope time citizen.\\nBring community goal visit tough able soon. Artist gas different prepare military level.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM1LjkwMzI2MyIsInVzZXJfaWQiOiJkMmQ4ZjFkNy03ZmE0LTQyYzAtYWVhZS0xZGFiMTU5ZjMxODMifQ.O8ufg3zFVavKaPzf3wqo9QvfvD7Ds367-nYIU73EuRc' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must rate various.","maxScore":51,"minScore":1,"description":"Report opportunity to meeting five smile step. Result box project we choice grow toward.\\nSay view say agree. Represent side chance find.","estimatedTime":"6 weeks","previewFileId":"fa0f7fc2-f872-40b7-91a5-14c3683ded7a","createdByUserId":"d2d8f1d7-7fa4-42c0-aeae-1dab159f3183"}'

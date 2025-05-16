@@ -1,0 +1,10 @@
+curl -X PATCH http://localhost:8000/api/v1/courses/9089cad2-ca93-4c0f-b703-5d8d3f423427 \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM2LjU0MDUxOCIsInVzZXJfaWQiOiIzODYxMDZjNS01NGMwLTRhMjYtOGRiYi05ZDhmMmQ5YWMzMjQifQ.XchBOPrAubcmPqQ5zSvu6-YqA87q46l3iUhyIOCUIgA' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cold fact around throughout common great piece.","maxScore":93,"minScore":20,"description":"Arm decision Mrs send thought throughout animal. Miss shake need debate. Fight go protect exist identify similar finally.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,29 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=22dbdbb2-d0b7-4b49-bb4b-f8afe565279e
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=22dbdbb2-d0b7-4b49-bb4b-f8afe565279e
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:80 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of 'courses' equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:55 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 81fd9743-ec1d-46bd-b2ff-802568edaea5
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Painting rate food concern present follow serious.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 74
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 16
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Me agency themselves. Protect fish college company strategy commercial pull. Writer clearly cut term with professor fine.
+Others leader work player.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 1 weeks
+INFO     FILES_ASSERTIONS:files.py:49 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to a5379846-6608-4254-a110-2fdbf6dc115f
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'url' equals to http://localhost:8000/static/tests/7d9b6f58-0221-48c1-aa02-26eae6a4b3d2.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'filename' equals to 7d9b6f58-0221-48c1-aa02-26eae6a4b3d2.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'directory' equals to tests
+INFO     USERS_ASSERTIONS:users.py:30 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 22dbdbb2-d0b7-4b49-bb4b-f8afe565279e
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'email' equals to ysingh@example.org
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'last_name' equals to Cook
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'first_name' equals to Evelyn
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'middle_name' equals to Christine
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

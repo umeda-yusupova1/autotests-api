@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM3LjcxNjUxNiIsInVzZXJfaWQiOiIzMmI4MzM1OC03MDgxLTQxNGQtOWMyMy05MDgzMDIxNTFiM2QifQ.kqBY8x6_LS_dkjSeNH_Kvyqdr5eysjHHr8HmePFzuVk' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wind measure performance smile other rest blue.","maxScore":89,"minScore":22,"description":"Public game short. Lay draw fight assume kind source institution. Might word situation such.","estimatedTime":"8 weeks","previewFileId":"46faac88-8ec6-4383-986c-c905bedcc279","createdByUserId":"32b83358-7081-414d-9c23-908302151b3d"}'

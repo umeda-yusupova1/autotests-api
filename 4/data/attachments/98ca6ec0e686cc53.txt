@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM3LjEyOTU1NyIsInVzZXJfaWQiOiJhYmE3ZTdmMS0xMDRlLTQyM2EtYjhiZC1mZTQzNGY1ZDBlMjEifQ.jsaccHYuyQmW2eIe8CADXumHFQUtLtCNi7at0eBCnCg' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quite share wrong population.","maxScore":89,"minScore":3,"description":"Building power lay environment. Woman approach believe open light drive various along.\\nSite inside Republican our treat just range. Right line mention thousand.","estimatedTime":"8 weeks","previewFileId":"5459d214-2032-4c2f-aedf-5fd15f8a8d32","createdByUserId":"aba7e7f1-104e-423a-b8bd-fe434f5d0e21"}'

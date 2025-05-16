@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM2LjU0MDUxOCIsInVzZXJfaWQiOiIzODYxMDZjNS01NGMwLTRhMjYtOGRiYi05ZDhmMmQ5YWMzMjQifQ.XchBOPrAubcmPqQ5zSvu6-YqA87q46l3iUhyIOCUIgA' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Personal campaign political yet animal three wonder.","maxScore":99,"minScore":4,"description":"Lot fish tell seven relate result.\\nEnvironment nature size new. Specific say although share wonder nature receive. Always particular accept reach.","estimatedTime":"8 weeks","previewFileId":"c1de9223-9255-422a-8b04-875c2b3e7f89","createdByUserId":"386106c5-54c0-4a26-8dbb-9d8f2d9ac324"}'

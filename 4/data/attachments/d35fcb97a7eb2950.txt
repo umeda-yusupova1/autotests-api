@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM5LjU4OTAwNCIsInVzZXJfaWQiOiIzNTM5OTAzNC1iMGQyLTRkZjUtODliOS02ZDMwMjVhN2ViNWEifQ.3wtptgwGLrcmnvBt7o1x6Ckn1w0OXpoPMV9yua8X-24' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Officer ever front on.","maxScore":64,"minScore":28,"description":"Eight board act machine nothing short. However into quite never.","estimatedTime":"1 weeks","previewFileId":"944ffdbb-8dfe-4a87-a84e-b7dfe3b5cf41","createdByUserId":"35399034-b0d2-4df5-89b9-6d3025a7eb5a"}'

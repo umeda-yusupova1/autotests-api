@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM4LjI5NjUxMiIsInVzZXJfaWQiOiI2MzNiMWZiMi00NTdlLTQ4NDUtOGNiMS0yODZiZWU4MWY5MGMifQ.z91v0C5XCfi-SEVX6vN3FVlOF7e2WdPrsuSvjEfJ2Y8' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting news debate war current well win.","maxScore":59,"minScore":10,"description":"Chance affect speak make because for. Different finish leave different agent allow behind.","estimatedTime":"5 weeks","previewFileId":"9b734c04-415a-4e69-ad31-bc25128f1a3d","createdByUserId":"633b1fb2-457e-4845-8cb1-286bee81f90c"}'

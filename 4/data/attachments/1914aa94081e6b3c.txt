@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE2VDE5OjI2OjM3LjcxNjUxNiIsInVzZXJfaWQiOiIzMmI4MzM1OC03MDgxLTQxNGQtOWMyMy05MDgzMDIxNTFiM2QifQ.kqBY8x6_LS_dkjSeNH_Kvyqdr5eysjHHr8HmePFzuVk' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready understand near suggest.","courseId":"25b9dc38-f297-45a1-9dcf-81e39e5320ff","maxScore":95,"minScore":21,"orderIndex":78,"description":"Enough dinner worry its miss item. Crime last argue themselves court up.\\nReason outside occur meet fight reason. Past miss last else rule state cell.","estimatedTime":"8 weeks"}'
