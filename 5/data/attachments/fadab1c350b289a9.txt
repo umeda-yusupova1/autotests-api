@@ -1,0 +1,29 @@
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=a0f968ac-99a0-4ea7-a7d1-ecc989d5ad41
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=a0f968ac-99a0-4ea7-a7d1-ecc989d5ad41
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:80 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of 'courses' equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:55 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 6cc4fb71-f867-4036-a7da-9e091eef2983
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Design especially already response heart go nation.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 62
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 19
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Security often strategy response. Buy ever myself situation arrive floor medical.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 1 weeks
+INFO     FILES_ASSERTIONS:files.py:49 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 8d137af1-8ffd-4de2-ba67-39f6d655e3ee
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'url' equals to http://localhost:8000/static/tests/b107bc30-90fa-4db7-9fa7-c269c144c41d.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'filename' equals to b107bc30-90fa-4db7-9fa7-c269c144c41d.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'directory' equals to tests
+INFO     USERS_ASSERTIONS:users.py:30 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to a0f968ac-99a0-4ea7-a7d1-ecc989d5ad41
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'email' equals to bradleybrianna@example.com
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'last_name' equals to Hood
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'first_name' equals to Kayla
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'middle_name' equals to Robert
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

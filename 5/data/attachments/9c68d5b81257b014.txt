@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE4VDEyOjUyOjUzLjc3NjI2MyIsInVzZXJfaWQiOiI0YmFhYTkzMC05NmZhLTQxYzUtODI5NS0zOGM1ZGY5N2MyZTYifQ.l_UzJuLjIJajKUEt10OR9c188NfPFs5HvynFbda2Azs' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However but form benefit.","maxScore":82,"minScore":15,"description":"After crime memory my there travel lead responsibility. Easy upon research. Right relationship perform good.","estimatedTime":"1 weeks","previewFileId":"56c9658b-cad2-4d9c-b522-8df0ff94d5c1","createdByUserId":"4baaa930-96fa-41c5-8295-38c5df97c2e6"}'

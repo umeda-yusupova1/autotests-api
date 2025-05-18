@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE4VDEyOjUyOjU0LjA1MDI2OSIsInVzZXJfaWQiOiJhZGJhZjc0Ni1kMzhkLTQ3MTAtYmIxMy02ZDMxYTg3YmM2YmEifQ.rUUyOlMM8GS2bRge5HurPMPRin_iiik8WkEC5DE01Sc' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chance example risk color.","courseId":"3fd5e334-a5de-4b9e-8eb9-7ba4275322a3","maxScore":64,"minScore":3,"orderIndex":43,"description":"Him night away kid view individual. Drop year cold short cost phone. Rate those ever turn.\\nChild main determine country mean. Family up piece writer anything subject.","estimatedTime":"4 weeks"}'

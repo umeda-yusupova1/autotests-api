@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE4VDEyOjUyOjU0Ljk3MzU4NCIsInVzZXJfaWQiOiJjYjQ5M2VlNi0xOGYxLTRiNDMtYmU5OC0wMDljMzEyMWNiODQifQ.QWKMCgMTMBFPzxpPRgsHP1iHYLTsJ7YZUl3Ws9Ybcic' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready trouble son prevent institution expert so entire.","maxScore":90,"minScore":7,"description":"Stop part hospital over important house all. Republican true clear talk movement take. Then affect physical hour. Ago population send sister especially young field.","estimatedTime":"2 weeks","previewFileId":"880adcc4-e2de-420a-b509-fe8b0afe4e71","createdByUserId":"cb493ee6-18f1-4b43-be98-009c3121cb84"}'

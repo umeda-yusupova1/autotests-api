@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/e822cd00-c081-49f0-acf2-10362ca9a1b1
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/e822cd00-c081-49f0-acf2-10362ca9a1b1
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:86 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Fill prepare source range.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 55
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 14
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 14
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Name miss perhaps might pattern huge.
+Product agreement history enter top. Themselves common theory region site anything. Event information water individual station southern task.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

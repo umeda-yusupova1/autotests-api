@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE4VDEyOjUyOjU1LjI0NzQxMSIsInVzZXJfaWQiOiIzNTJmZjU0Zi02N2ZjLTQ0NTItOGViOS05NGYwMzA5ODNmMGUifQ.em1CnmJE1LeUIzEzlydXcF1ZcEFUBkaMUEwtOQy3gIY' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Past capital adult anyone bit.","courseId":"1c5f111b-c0fd-4779-97ba-96411e130985","maxScore":57,"minScore":15,"orderIndex":55,"description":"Far north third local first. Arm rather call practice prevent.\\nIndustry product word religious. Six sea already.\\nAs model produce tonight reach coach. High open entire home improve.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/8a12e2a6-c283-43e3-b09a-5641c4d827f2
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/8a12e2a6-c283-43e3-b09a-5641c4d827f2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Physical meeting Congress edge effect understand car.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 86
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 16
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to History sort investment follow kitchen recent. Should prepare that prevent end approach natural. They large Mr next focus school international. Doctor place coach administration perhaps.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

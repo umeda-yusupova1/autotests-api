@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE4VDEyOjUyOjU1LjI0NzQxMSIsInVzZXJfaWQiOiIzNTJmZjU0Zi02N2ZjLTQ0NTItOGViOS05NGYwMzA5ODNmMGUifQ.em1CnmJE1LeUIzEzlydXcF1ZcEFUBkaMUEwtOQy3gIY' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although system production really result involve industry.","maxScore":76,"minScore":30,"description":"Employee painting building boy gas something early. Scene energy behind far.\\nSure represent thing start sound. Want similar establish movie man sense.","estimatedTime":"5 weeks","previewFileId":"785908d2-30cd-4630-b4e4-da96bea41ccf","createdByUserId":"352ff54f-67fc-4452-8eb9-94f030983f0e"}'

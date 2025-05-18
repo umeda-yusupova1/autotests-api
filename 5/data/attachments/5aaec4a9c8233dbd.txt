@@ -1,0 +1,10 @@
+curl -X PATCH http://localhost:8000/api/v1/courses/8a12e2a6-c283-43e3-b09a-5641c4d827f2 \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA1LTE4VDEyOjUyOjUyLjg3ODA4OSIsInVzZXJfaWQiOiJhMGVlMzVjYy00ZDY0LTQzYWUtYTJiOC0wOWMxNmRkZGFkNDUifQ.h2qag9ENRZ3be9v1nScMsODlJPkw8sLys0fWFrShFas' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical meeting Congress edge effect understand car.","maxScore":86,"minScore":16,"description":"History sort investment follow kitchen recent. Should prepare that prevent end approach natural. They large Mr next focus school international. Doctor place coach administration perhaps.","estimatedTime":"2 weeks"}'
